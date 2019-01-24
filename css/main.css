@@ -5,15 +5,12 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  font-family: "Roboto Slab", serif;
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  line-height: 1.3;
-  color: #fff;
-  background: none;
+  font-family: "Roboto Slab", serif;
 }
 
 *, *::before, *::after {
@@ -26,6 +23,7 @@ body {
 }
 
 figcaption {
+  font-family: "Roboto Slab", serif;
   max-width: 15em;
   background-color: #000;
   background-color: rgba(0, 0, 0, .5);
@@ -58,6 +56,10 @@ div {
 
   body {
     max-height: 533.6px;
+  }
+
+  header {
+    padding: 1rem;
   }
 
 }
